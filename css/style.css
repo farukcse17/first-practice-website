@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#header-section{
+    display: flex;
+    background-color: gray;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    color: white;
+    font-weight: bold;
+}
+.logo{
+    width: 150px;
+}
+.nav-menu{
+    display: flex;
+    list-style: none;
+}
+.nav-menu li{
+    margin-left: 20px;
+    cursor: pointer;
+}
+.nav-menu li:hover{
+    color: lightgreen;
+}
+/* End header section */
+.banner-section{
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-around;
+    height: 100vh;
+    background-image: url(../images/background.png), linear-gradient(45deg, rgb(8, 8, 8), rgb(53, 53, 53));
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+
+}
+.banner-text h1{
+    font-size: 52px;
+    margin-bottom: 15px;
+}
+.banner-text p{
+    font-size: 18px;
+}
+.btn{
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: red;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.banner-img {
+    height: 300px;
+
+}
+/* End Banner section */
+/* .main-section{
+    background: lightGray;
+} */
+.about-us h2{
+    text-align: center;
+    font-size: 55px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+
+.about-inner-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+}    
+.about-text{
+    
+}
+.about-text h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.about-text p{
+    font-size: 18px;
+}
+/* Our services section */
+.our-services{
+    padding-bottom: 30px;
+    background-image: url(../images/background.png), linear-gradient(45deg, rgb(8, 8, 8), rgb(53, 53, 53));
+    color: white;
+}
+.our-services h2{
+    font-size: 50px;
+    padding-bottom: 20px;
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+}
+.our-services-container{
+    display: flex;
+    justify-content: space-around;
+}
+.service-box{
+    box-shadow: 7px 7px 50px rgb(166, 171, 173);
+    border-radius: 10px;
+    height: 270px;
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+}
+.service-icon{
+    width: 80px;
+}
+.box-title{
+    font-size: 24px;
+}
+.box-desc{
+
+}
+.service-btn{
+   background-color: #2e2b2b;
+}
+/* Footer section */
+.footer-section{
+    background-color: black;
+    color: white;
+}
+.footer-sec-container{
+    padding: 40px;
+    width: 80%;
+    margin: 0 auto;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-around;
+    vertical-align: center;
+    margin-top: 60px;
+}
+.footer-box{
+    width: 230px;
+    list-style: none;
+}
+.footer-logo{
+    width: 150px;
+}
+.footer-box-title{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.footer-desc{
+
+}
+.footer-box-list{
+    line-height: 30px;
+}
+.footer-bottom{
+    margin-top: 80px;
+}
+.copyright{
+    margin-top: 20px;
+    text-align: center;
+}
